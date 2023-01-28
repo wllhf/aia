@@ -4,3 +4,4 @@ This is a lecture series about deep learning methods used in computer vision I h
 
 Visit [course page](https://wllhf.github.io/aia/) for more information.
 
+If you are reusing the material please credit original sources. References can be found in the respective slides.

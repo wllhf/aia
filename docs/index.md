@@ -1,6 +1,10 @@
 
 This is a lecture series about deep learning methods used in computer vision I held as part of the [AIA](https://moseskonto.tu-berlin.de/moses/modultransfersystem/bolognamodule/beschreibung/anzeigen.html?number=40345&version=8&sprache=2) course at [TUB](www.tu.berlin).
 
+The series is heavily inspired by Fei-Fei Li's [CN231](http://cs231n.stanford.edu/) and Joseph Redmond's [Ancient Secrets](https://pjreddie.com/courses/computer-vision/). 
+
+The sources to all slides are in the github repository (see link above). If you are reusing the material please credit original sources. References can be found in the respective slides.
+
 
 ## Schedule
 

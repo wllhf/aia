@@ -1,0 +1,125 @@
+%%% TeX-command-extra-options: "-shell-escape"
+%!TEX options=--shell-escape
+
+%----------------------------------------------------------------------------------------
+%   PACKAGES AND THEMES
+%----------------------------------------------------------------------------------------
+\documentclass[aspectratio=169,xcolor=dvipsnames]{beamer}
+% \usetheme{Simple}
+\usepackage[english]{babel}
+\usepackage{pgfpages}
+
+%\setbeameroption{show notes}
+\setbeameroption{show notes on second screen}
+\setbeamertemplate{note page}[plain]
+
+\usepackage{hyperref}
+\usepackage{graphicx} % Allows including images
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+
+% hyperlinks
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=, % no color for internal links
+    filecolor=magenta,
+    urlcolor=blue,
+}
+
+% code
+% \usepackage{minted}
+% \setminted{
+%     fontsize=\footnotesize,
+%     autogobble,
+%     bgcolor=mygray,
+%     fontsize=\small
+% }
+
+% colors
+\usepackage{xcolor}
+\definecolor{mygray}{gray}{0.95} % define color - grey scale: 0=dark - 1=light
+
+% packages added with respect to overleaf
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage[most]{tcolorbox} % colored boxes
+
+% custom commands
+\definecolor{darkred}{HTML}{CC0000}
+\newcommand\textveryimp[1]{\textcolor{darkred}{\underline{\textbf{#1}}}} % text bold+red+underlined
+\newcommand\textimp[1]{\underline{\textbf{#1}}} % text bold+red+underlined
+\newcommand\textcode[1]{\textcolor{gray}{\texttt{#1}}} % text typewriter font + gray
+
+\newcommand\blfootnote[1]{%
+  \begingroup
+  \renewcommand\thefootnote{}\footnote{#1}%
+  \addtocounter{footnote}{-1}%
+  \endgroup
+}
+
+% figures
+\usepackage{tikz}
+% \usetikzlibrary{shapes,backgrounds}
+\usepackage{animate}
+%\usepackage{media9}
+% equations
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{empheq}
+\usepackage{makecell}
+
+% images
+\graphicspath{ {./images/} } % Relative path to image directory
+
+% insert table of content before each section
+% \AtBeginSection[]
+% {
+%     \begin{frame}
+%         \frametitle{Table of Contents}
+%         % \tableofcontents[currentsection]
+%     \end{frame}
+% }
+% \setbeamertemplate{subsection in toc}[subsections numbered] % add numbers in front of subsections
+% \setbeamertemplate{subsection in toc}{\leavevmode\leftskip=2em$\bullet$\hskip1em\inserttocsubsection\par} % add bullets in front of subsections
+%\setbeamertemplate{subsection in toc}{\leavevmode\leftskip=3.2em\rlap{\hskip-2em\inserttocsectionnumber.\inserttocsubsectionnumber}\inserttocsubsection\par}
+\setbeamertemplate{subsection in toc}{\leavevmode\leftskip=3.5em\rlap{\hskip-1.25em\inserttocsubsectionnumber.}\inserttocsubsection\par} % add indented subsection number
+
+\setbeamerfont{frametitle}{size=\scriptsize} % Set slide title fontsize
+\setbeamercovered{transparent} % Set text to be semi-transparent during sequential overlay
+
+
+%----------------------------------------------------------------------------------------
+%   TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\title[short title]{Introduction to Machine Learning}
+\subtitle{Lecture 08}
+\author{Automatic Image Analysis}
+\titlegraphic{
+  \includegraphics[height=3cm]{cvlogo}
+  \includegraphics[height=3cm]{tublogo}
+}
+%\date{2021-04-23}
+
+
+%----------------------------------------------------------------------------------------
+%   PRESENTATION SLIDES
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\begin{frame}
+    \titlepage
+\end{frame}
+
+
+% ------------------------------------------------
+\section{Introduction to Machine Learning}
+%------------------------------------------------
+
+\input{intro}
+\input{gradient_descent}
+\input{outro}
+
+\end{document}

@@ -1,0 +1,70 @@
+\begin{frame}{Learning without supervision?}
+
+  \begin{itemize}
+    \item 1,281,167 training images
+    \item 1000 object classes
+  \end{itemize}
+
+  \note{
+    \begin{itemize}
+      \item How much are 1000 concepts compared to all the concepts humans use?
+      \item Imagine we would need to label 1000 images per concept.
+      \item New concepts are created and change all the time.
+    \end{itemize}
+  }
+
+\end{frame}
+
+
+\begin{frame}{Learning without supervision?}
+
+  \begin{itemize}
+    \item Can we learn without a supervision signal in form of labels?
+    \item In an un- or rather self-supervised manner?
+  \end{itemize}
+
+  \note{
+    \begin{itemize}
+      \item Similar to a human child in the first few month after birth.
+      \item Purely by observing the world.
+      \item It's hard to define what truly unsupervised learning could be. Therefore the term self-supervised learning is a better fit.
+    \end{itemize}
+  }
+
+\end{frame}
+
+
+\begin{frame}{Learning without supervision?}
+
+  \begin{itemize}
+    \item Pretext tasks
+    \item Energy based methods
+    \item Generative learning
+  \end{itemize}
+
+  \note{
+    \begin{itemize}
+      \item We will look at three big topics today.
+      \item At least the second and third topic could not only fill a lecture but a full course on their own.
+      \item E.g. CS 236: Deep Generative Models (Stanford) or CS 294-158 Deep Unsupervised Learning (Berkeley)
+    \end{itemize}
+  }
+
+\end{frame}
+
+
+\begin{frame}{Learning with self-supervision}
+
+  Idea:
+  \begin{itemize}
+    \item Train a neural network with an objective that doesn't need labels.
+    \item Evaluate representation on a downstream task. E.g. performance on ImageNet with or without finetuning.
+  \end{itemize}
+
+  \note{
+    \begin{itemize}
+      \item In generative learning often, people often just want to generate visual content though.
+    \end{itemize}
+  }
+
+\end{frame}

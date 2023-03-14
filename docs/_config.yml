@@ -1,7 +1,5 @@
 title: Introduction to Deep Learning for Computer Vision
 description: Course taught at TUB.
-# theme: jekyll-theme-hacker
-# github: [metadata]
 remote_theme: pages-themes/hacker@v0.2.0
 plugins:
 - jekyll-remote-theme

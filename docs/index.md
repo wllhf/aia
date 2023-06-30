@@ -66,4 +66,34 @@ The sources to all slides are in the github repository (see link above). If you 
 
 * Lecture 05: Video Analysis ([slides](https://raw.githubusercontent.com/wllhf/aia/main/lecture/pdfs_2021/lecture_12_temporal.pdf))
 
+  References and further reading:
+  * [Dive into Deep Learning: Recurrent Neural Networks](https://d2l.ai/chapter_recurrent-neural-networks/index.html)
+  * [Dive into Deep Learning: Modern Recurrent Neural Networks](https://d2l.ai/chapter_recurrent-modern/index.html)
+  * [Deep Learning Book: Sequence Modeling: Recurrent and Recursive Nets](https://www.deeplearningbook.org/contents/rnn.html)
+  * [Chris Olahs Blog: Understaning LSTM Networks](https://colah.github.io/posts/2015-08-Understanding-LSTMs/v)
+  * [Andrej Karpathys Blog: The Unreasonable Effectiveness of Recurrent Neural Networks](https://karpathy.github.io/2015/05/21/rnn-effectiveness/)
+  + all the papers referenced in the PDF.
+
+  Things we didn't cover:
+  * [Non-local Neural Networks](https://arxiv.org/pdf/1711.07971.pdf)
+  * [A Closer Look at Spatiotemporal Convolutions for Action Recognition (R(2+1)D)](https://arxiv.org/pdf/1711.11248.pdf)
+  
+  Pre Deep Learning:
+  * [Bag of Visual Words and Fusion Methods for Action Recognition: Comprehensive Study and Good Practice](https://arxiv.org/abs/1405.4506)
+  * [Action Recognition by Dense Trajectories](https://hal.inria.fr/inria-00583818/document)
+  * [Dense trajectories and motion boundary descriptors foraction recognition](https://inria.hal.science/hal-00803241/document)
+
 * Lecture 06: Self Supervised Learning ([slides](https://raw.githubusercontent.com/wllhf/aia/main/lecture/pdfs_2021/lecture_13_ssl.pdf))
+
+  References and further reading:
+  * [Dive into Deep Learning: Generative Adversarial Networks](https://d2l.ai/chapter_generative-adversarial-networks/gan.html)
+  * [Ishan Misra: Lecture about Energy-based SSL](https://youtu.be/8L10w1KoOU8)
+  * [Fei Fei Li: Lecture about Generative Methods](https://youtu.be/5WoItGTWV54)
+  * [Ali Ghodsi: Lecture with derivation of Variational Autoencoders](https://youtu.be/uaaqyVS9-rM)
+  * [Jeremy Jordon: Blog post about Variational Autoencoders](https://www.jeremyjordan.me/variational-autoencoders/)
+  * [Revisiting Self-Supervised Visual Representation Learning, Kolesnikov et al, CVPR 2019](https://openaccess.thecvf.com/content_CVPR_2019/papers/Kolesnikov_Revisiting_Self-Supervised_Visual_Representation_Learning_CVPR_2019_paper.pdf)
+  * [Self-supervised Visual Feature Learning with Deep Neural Networks: A Survey, Jing & Tian, TPAMI 2019](https://arxiv.org/abs/1902.06162)
+  + all papers referenced in the PDF
+    
+  We didn't talk about generating images with Transformers:
+  * [OpenAI: Image GPT](https://openai.com/blog/image-gpt/)

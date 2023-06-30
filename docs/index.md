@@ -1,5 +1,5 @@
 
-This is a lecture series about deep learning methods used in computer vision I held as part of the [AIA](https://moseskonto.tu-berlin.de/moses/modultransfersystem/bolognamodule/beschreibung/anzeigen.html?number=40345&version=8&sprache=2) course at [TUB](www.tu.berlin).
+This is a lecture series about deep learning methods used in computer vision, I held as part of the [AIA](https://moseskonto.tu-berlin.de/moses/modultransfersystem/bolognamodule/beschreibung/anzeigen.html?number=40345&version=8&sprache=2) course at [TUB](www.tu.berlin).
 
 The series is heavily inspired by Fei-Fei Li's [CN231](http://cs231n.stanford.edu/) and Joseph Redmond's [Ancient Secrets](https://pjreddie.com/courses/computer-vision/). 
 
